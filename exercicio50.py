@@ -7,3 +7,5 @@ if aluno in notas_alunos:
     print(f"A nota de {aluno} é: {notas_alunos[aluno]}")
 else:
     print("Aluno não encontrado.")
+
+    
