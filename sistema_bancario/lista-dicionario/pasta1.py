@@ -46,19 +46,19 @@
 #     valor = input(f'Digite o {i+1} item:° ')
 #     valores.append(valor)
 
-# #- armazenamento (lista, tupla, set, dict)
-lista = list(dados)
-tupla = tuple(dadoos)
-conjunto = set(dados)
-#dicionario = dict(valores) # Erro - Dicionario precisa de dois elementos chave/valor
-dicionario2 = {j: valor for j, valor in enumerate(dados)}
+# # #- armazenamento (lista, tupla, set, dict)
+# lista = list(dados)
+# tupla = tuple(dadoos)
+# conjunto = set(dados)
+# #dicionario = dict(valores) # Erro - Dicionario precisa de dois elementos chave/valor
+# dicionario2 = {j: valor for j, valor in enumerate(dados)}
 
-#- print
-print('Lista: ', lista)
-print('Tupla: ', tupla)
-print('Conjunto:', conjunto)
-#print('Dicionario: ', dicionario)
-print('Dicionario 2: ', dicionario2)
+# #- print
+# print('Lista: ', lista)
+# print('Tupla: ', tupla)
+# print('Conjunto:', conjunto)
+# #print('Dicionario: ', dicionario)
+# print('Dicionario 2: ', dicionario2)
 
 
 #2- Faça o mesmo que o exrcício anterior, mas com valores randômicos do tipo inteiro.
